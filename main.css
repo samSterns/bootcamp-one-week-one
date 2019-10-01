@@ -1,12 +1,20 @@
-.title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    
+body {
+    font-family: Arial, Helvetica, sans-serif,
+}
+
+.t {
+    background-color: rgb(245, 88, 31);
 }
 
 .header2 {
-    background-color: blueviolet
+    background-color: #26A1DA;
+}
+
+#action-button {
+    display: flex,
 }
 
 .cookingPhoto {
-    height: 500px
+    height: 300px,
 }
+
