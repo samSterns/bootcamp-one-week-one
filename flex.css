@@ -1,0 +1,19 @@
+.stripMall{
+    background: lightblue;
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    border: dotted 1px yellow;
+}
+.tower {
+    height: 300px;
+    width: 200px;
+    background: lightpink;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around
+    border: solid 1px yellow;
+}
