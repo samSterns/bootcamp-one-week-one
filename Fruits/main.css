@@ -1,9 +1,10 @@
 .veggie-box {
-    border: solid 2px black;
+    border: solid 4px black;
     border-radius: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     height: 200px;
     width: 150px;
 }
@@ -26,4 +27,8 @@ body {
 h1 {
     font: 300;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+    background-color: aqua;
 }
