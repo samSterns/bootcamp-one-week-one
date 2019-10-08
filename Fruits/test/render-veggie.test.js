@@ -8,11 +8,11 @@ test('renders a veggie', assert => {
         class: 'veggie-box',
         name: 'Baby Spinach',
         image: 'spinach.png',
-        description: 'Listen to Popeye but eat it fresh',
+        description: 'Baby spinach image',
         category: 'leafy-greens',
         price: 1.00,
     };
-    const expected = '<li id="spinach" class="veggie-box"><div></div><div><img id="image" src="/images-veggie/spinach.png" alt="Listen to Popeye but eat it fresh"></div><div>Price : $0 </div><button class="button">Add to Cart</button></li>';
+    const expected = '<li id="spinach" class="veggie-box"><div>Baby Spinach</div><img id="image" src="../images-veggie/spinach.png" alt="Baby Spinach image"> <div>Price : $1.00</div> <button class="button">Add to Cart</button></li>';
     
     const dom = renderVeggie(spinach);
     const html = dom.outerHTML;
