@@ -4,9 +4,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 200px;
+    width: 150px;
 }
 
 .veggie-box > img {
     width: 100px; 
     height: 100px;
+}
+
+#image {
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
